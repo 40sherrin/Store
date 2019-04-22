@@ -1,0 +1,249 @@
+html, body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* 
+###################################################
+############## NAVIGATION EDITING #################
+###################################################
+*/
+.bg-dark{
+    background-color: black !important;
+}
+.navbar-brand{
+    margin-right: 4rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-right: 30px;
+}
+.navbar-dark .navbar-nav .nav-link .cart-colour{
+    color: orange;
+}
+.navbar-dark .navbar-nav .nav-link .cart-colour:focus,
+.navbar-dark .navbar-nav .nav-link .cart-colour:hover,
+.navbar-dark .navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: blue;
+}
+/* 
+###################################################
+############## SHOES CHOICE NIKE ##################
+###################################################
+*/
+.shoe-details{
+    position: relative;
+    margin-top: 17rem;
+    margin-left: 6rem;
+    line-height: 2;
+}
+.nike-imgz img{
+    border-style: none;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.checked{
+    color: orange;
+}
+.nike-price{
+    font-weight: bolder;
+    font-size: 26px;
+    color: blue;
+}
+.nike-color{
+    margin-left: 20px;
+}
+#size-nike{
+    font-weight: bold;
+    padding: 8px 12px;
+}
+#qty-nike{
+   font-weight: bold;
+   padding: 8px 12px; 
+}
+.btn-nike{
+    outline: none;
+    border: none;
+    border-radius: 28px;
+    background: blue;
+    padding: 8px 25px;
+    margin: 0 10px;
+    color: #fff;
+    font-style: initial;
+    font-weight: bold;
+    font-size: 18px;
+}
+.p-0{
+    color: grey;
+}
+/* 
+##################################################
+############### NIKE FUN TEXT ####################
+##################################################
+*/
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.fareed{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    line-height: 1.7;
+}
+.nike-bg{
+    background-color: #272936;
+}
+.nike-shoe{
+    width: 80%;
+    padding: 45px 0;
+}
+.fareed-x{
+    color: #fff;
+    padding: 10rem 0;
+}
+.x-btn{
+    outline: none;
+    border: 1px solid blue;
+    background: transparent;
+    padding: 10px 17px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+}
+/* 
+###################################################
+############### Product Item ######################
+###################################################
+*/
+.img-box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    z-index: -10;
+}
+.img-details{
+    z-index: 10;
+}
+.item h3{
+    color: blue;
+    font-weight: bold;
+}
+.bg-custom{
+    color: white;
+    padding: 5px 26px;
+    border-radius: 30px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+/* 
+###################################################
+################ FOOTER STYLE #####################
+###################################################
+*/
+.nike-footer{
+    background-color: black;
+    padding: 25px  0;
+}
+.p0{
+    text-transform: uppercase;
+    color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px 0px 0px 0px;
+}
+.nike-footer ul.navbar-nav a.nav-link{
+    font-size: 26px;
+    padding: 7px 10px;
+    color: white;
+}
+.footer-help{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline;
+    color: white;
+}
+.nike-footer ul.navbar-nav li.nav-item:nth-child(1) a{
+    color: #dc4e41;
+}
+.nike-footer ul.navbar-nav li.nav-item:nth-child(2) a{
+    color:  #55acee;
+}
+.nike-footer ul.navbar-nav li.nav-item:nth-child(3) a{
+    color: #bd081c;
+}
+.nike-footer ul.navbar-nav li.nav-item:nth-child(4) a{
+    color: #FCAF45;
+}
+/* 
+###################################################
+################## MEDIA QUERY ####################
+###################################################
+*/
+/* ################# LAPTOP ################### */
+@media screen and (max-width: 1440px){
+    .shoe-details{
+        margin-top: 18rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    /* ########### SHOE DETAILS ############## */
+    .shoe-details{
+        position: relative;
+        margin-top: 14rem;
+        margin-left: 2rem;
+    }
+    .img-box{
+        position: relative;
+        width: 300px;
+        height: 290px;
+        z-index: -10;
+    }
+}
+@media screen and (max-width: 768px){
+    /* 
+    ############# NAVBAR EDITING ###############
+    */
+    .navbar-dark .navbar-nav .nav-link{
+        padding-right: .5rem;
+    }
+    .img-box{
+        position: relative;
+        width: 260px;
+        height: 280px;
+        z-index: -10;
+    }
+    /* 
+    ############## SHOE DETAILS ################
+    */
+    .shoe-details{
+        margin: 0;
+        padding: 46px 0;
+    }
+    .btn-nike{
+        margin-top: 20px;
+    }
+    .nike-shoe {
+        width: 90%;
+        padding: 115px 0;
+    }
+}
+/* 
+###################################################
+################## MOBILE SIZE ####################
+###################################################
+*/
+@media screen and (max-width: 320px){
+    /* shoe- details */
+    .shoe-details{
+        margin-left: 30px;
+    }
+}
